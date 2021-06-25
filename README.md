@@ -6,5 +6,8 @@ Here user can
 Create an A/c
 Primary mobile number is alloted to A/c No. by software. 
 Furthur user can start transaction.
-![Screenshot (1086)](https://user-images.githubusercontent.com/61092127/123462773-5b9c8980-d608-11eb-859f-ede7dad3fcc9.png)
-![Screenshot (1087)](https://user-images.githubusercontent.com/61092127/123462779-5ccdb680-d608-11eb-832d-fd6661b0e1e6.png)
+
+![Screenshot (1089)](https://user-images.githubusercontent.com/61092127/123475259-c5249400-d618-11eb-93f5-69c330482e64.png)
+![Screenshot (1090)](https://user-images.githubusercontent.com/61092127/123475266-c6ee5780-d618-11eb-95fe-681adb6ba529.png)
+![Screenshot (1091)](https://user-images.githubusercontent.com/61092127/123475267-c786ee00-d618-11eb-937e-78cfa2ea6e08.png)
+
