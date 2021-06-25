@@ -22,11 +22,6 @@ class Bank {
         void report();
         long long int retacno();
         void modify();
-    //void show all costomer details
-    //seach by name
-    // search by a/c no
-    //update a/c of a customer
-    //delete record
 };
 void Bank :: modify() {
     cout << "Enter Name :" << endl;
@@ -36,8 +31,8 @@ void Bank :: modify() {
     getline(cin, fName);
     cout << "Enter Address : " << endl;
     getline(cin, address);
-    //cout << "Enter mobile Number : " << endl;
-    //cin >> MobileNumber;
+    cout << "Enter mobile Number : " << endl;
+    cin >> MobileNumber;
 
 }
 
@@ -45,7 +40,6 @@ long long int Bank :: retacno() {
     return MobileNumber;
 }
 void Bank :: report() {
-   // cout << MobileNumber << setw(10) << " " << name << setw(10) << " " << fName << setw(6) << Balance << endl;
     cout << MobileNumber << "\t" << name << "\t\t" << fName << "\t\t\t" << Balance << endl; 
 
 }
@@ -93,7 +87,6 @@ void Bank :: Withdraw(int amount) {
 // Balance Enquiry Function
 
 long long int Bank :: BalanceEnquiry() {
-    //cout << "\tTotal Balance is : " << Balance << endl << endl;
     return Balance;
 }
 // showing details of customer 
