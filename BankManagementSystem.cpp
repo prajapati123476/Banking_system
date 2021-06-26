@@ -363,9 +363,9 @@ int main() {
            case 6:
             long long int n3;
             int opt;
-            cout << "Enter a/c nunber :" << endl;
+            cout << "Enter a/c number :" << endl;
             cin >> n3;
-            cout << "press 1 for deposite 2 for withdraw : " << endl;
+            cout << "press 1 for deposit 2 for withdraw : " << endl;
             cin >> opt;
             depositeWithdraw(n3, opt);
             system("pause");
