@@ -27,7 +27,7 @@ void Bank :: modify() {
     cout << "Enter Name :" << endl;
     cin.ignore();
     getline(cin, name);
-    cout << "Enter Father Name :" << endl;
+    cout << "Enter Father's Name :" << endl;
     getline(cin, fName);
     cout << "Enter Address : " << endl;
     getline(cin, address);
@@ -63,7 +63,7 @@ void Bank :: OpenAccount() {
     cout << "\tEnter Aadhar Number" <<endl;
     cin >> aadharNumber;
 
-    cout << "\tEnter initila amount to Deposite and initial amount is >= 500" << endl;
+    cout << "\tEnter initila amount to Deposit and initial amount is >= 500" << endl;
     cin >> Balance;
 
     cout << "\tYour Account Has Been Created Successfully ...." << endl;
@@ -113,7 +113,7 @@ void modifyRecord(long long int);
 
 /**************************************************
 
-*This function deposite and withdraw cash of a specific customer Record
+*This function deposit and withdraw cash of a specific customer Record
 *by taking account number and 1 for deposite and 2 for withdraw
 
 ***************************************************/
@@ -133,7 +133,7 @@ void depositeWithdraw(long long int n, int opt) {
         if (b1.retacno() == n) {
             b1.Display();
             if (opt == 1) {
-                cout << "\n\n\t To deposite amount : " << endl;
+                cout << "\n\n\t To deposit amount : " << endl;
                 cout << "\n\nEnter the amount to be deposited : " << endl;
                 cin >> amount;
                 b1.Deposite(amount);
@@ -319,7 +319,7 @@ int main() {
         cout << "\t3. Modify" << endl;
         cout << "\t4. Search" <<endl;
         cout << "\t5. Display" <<endl;
-        cout << "\t6. Deposite and withdraw " << endl;
+        cout << "\t6. Deposit and withdraw " << endl;
         cout << "\t7. exit" << endl;
         
         cout << "\tChoose an option : " << endl;
