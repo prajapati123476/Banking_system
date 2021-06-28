@@ -1,13 +1,16 @@
 # Bank Management System 
-This project is implemented in C++.
-It is a simple management system of bank.
-The software is mainly used for managing account.
-Here user can 
-Create an A/c and 
-Primary mobile number is alloted to A/c No. by software. 
-Furthur user can start transaction.
+Simple CLI banking simulation system implemented in C++.
 
-![Screenshot (1089)](https://user-images.githubusercontent.com/61092127/123475259-c5249400-d618-11eb-93f5-69c330482e64.png)
-![Screenshot (1090)](https://user-images.githubusercontent.com/61092127/123475266-c6ee5780-d618-11eb-95fe-681adb6ba529.png)
-![Screenshot (1091)](https://user-images.githubusercontent.com/61092127/123475267-c786ee00-d618-11eb-937e-78cfa2ea6e08.png)
+A user has the option to simulate the following operations: 
+- Create/Open
+- Delete
+- Modify
+- Search
+- Display all
+- Deposit & Withdraw amount.
 
+Upon creating an account, the user is alloted their phone number as the bank account, and can use that as the key to transact within the system. The code saves all the customer and operations data in a plaintext file within the same directory to maintain persistance.
+
+![image](https://user-images.githubusercontent.com/22092047/123621110-82390b00-d828-11eb-8230-541e45d6aba2.png)
+
+![image](https://user-images.githubusercontent.com/22092047/123622631-19529280-d82a-11eb-9785-17aa9049bc22.png)
